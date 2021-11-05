@@ -78,8 +78,3 @@ class Deck(Hand):
                 else:
                     print("Не могу больше сдавать:",
                         " карты закончились!")
-
-    def errors(self, deck):
-        if Card in deck < 54:
-            self.deck.populate()
-            self.deck.shuffle()
